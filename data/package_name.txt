@@ -1,0 +1,4 @@
+firefox
+git
+skype
+ruby
