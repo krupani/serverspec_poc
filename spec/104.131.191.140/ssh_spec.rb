@@ -1,4 +1,4 @@
-require '../spec_helper_ssh'
+require 'spec_helper_ssh'
 
 describe package('apache2') do
   it { should be_installed }

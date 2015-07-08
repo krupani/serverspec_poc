@@ -53,3 +53,7 @@ packages_only.each do |pkg|
   end
 end
 
+describe file('/home/kaushal/Desktop/test.txt') do
+  txt = "qwerty"
+  its(:content){ should match txt}
+end
